@@ -58,7 +58,7 @@ endif()
 
 # Setup FontLoader
 set(QML_CONTENT "${QML_CONTENT}    readonly property alias defaultFont: lucideFont\n")
-set(QML_CONTENT "${QML_CONTENT}    readonly property FontLoader lucideFont: FontLoader { source: \"${FONT_FILE}\" }\n")
+set(QML_CONTENT "${QML_CONTENT}    readonly property FontLoader lucideFont: FontLoader { id: lucideFont; source: \"${FONT_FILE}\" }\n")
 
 # Parse CSS into QML properties
 if(EXISTS "${target_css}")
