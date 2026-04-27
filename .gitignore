@@ -1,0 +1,41 @@
+# Compilation & IDE artifacts
+build/
+.vs/
+out/
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+Makefile
+*.cmake
+!CMakeLists.txt
+install_manifest.txt
+compile_commands.json
+.ninja_deps
+.ninja_log
+*.ninja
+
+# Qt/QML Artifacts
+*.qmlc
+*.jsc
+.qt/
+.rcc/
+.qmlls.ini
+
+# Subproject Generated Source Files
+MaterialIcons/MaterialIcons.qml
+FontAwesomeIcons/FontAwesomeIcons.qml
+LucideIcons/LucideIcons.qml
+
+# Subproject Downloaded Assets
+MaterialIcons/*.ttf
+MaterialIcons/*.codepoints
+FontAwesomeIcons/*.ttf
+FontAwesomeIcons/_variables.scss
+LucideIcons/*.ttf
+LucideIcons/*.css
+
+# User overrides
+.vscode/
+.idea/
+*.user
+.DS_Store
